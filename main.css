@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+        background-image: url('https://img.freepik.com/photos-gratuite/rendu-3d-boite-mystere_23-2149887376.jpg?t=st=1710940148~exp=1710943748~hmac=94ece811679afe55ee140710fed188851e1ca769c036fb7c60f8cb96ecad4546&w=1060');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-style:normal;
+    font-family:cursive;
+    color:rgb(200, 31, 183);
+    text-shadow:beige;
+}  
+  
+  
+  #question-container {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    color: #0056b3;
+  }
+  
+  #options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .option {
+    padding: 40px 30px;
+    margin: 5px;
+    background-color: #c81cc8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  .option:hover {
+    background-color: #0056b3;
+  }
+  
+  #result-container {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #result {
+    font-weight: bold;
+    color: rgb(188, 11, 146);
+    font-size: 30px;
+    font-style: oblique;
+  }
+  
+  #next-button {
+    padding: 30px 25px;
+    margin-top: 10px;
+    background-color: #a40dbf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-style: oblique;
+
+  }
+  
+  #next-button:hover {
+    background-color: #dc4116;
+  }
+  #questions {
+    font-size: 40px;
+  }
+  #score {
+    font-size: 40px;
+    font-style: oblique;
+    font-family: monospace;
+    color: #0056b3;
+    
+  }
