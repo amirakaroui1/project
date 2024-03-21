@@ -21,6 +21,7 @@ $(document).ready(function() {
   let score =0;
   let answered = false;
 
+
   function displayQuestion() {
     $('#question').text(questions[currentQuestion].question);
     $('#options-container').empty();
